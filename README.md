@@ -1,6 +1,6 @@
 **Welcome to ***YOUR DUMB*****
 
-I have created a Wordle clone but with an intriguing twist.
+I have created a Wordle clone that runs in the terminal but with an intriguing twist.
 
 In a traditional game of Wordle, players aim to guess a five-letter word within a limited number of attempts by submitting their guesses.
 
