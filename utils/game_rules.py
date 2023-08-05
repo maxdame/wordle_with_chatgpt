@@ -1,0 +1,65 @@
+from utils.display import Colors, display_title, DIVIDER, COMPLETION, green_text
+
+
+def show_game_rules():
+    display_title()
+    print(
+        f"=========================================== {Colors.CYAN}RULES{Colors.BASE} ============================================")
+    
+    print("")
+    print(COMPLETION)
+    print(f"{Colors.BOLD_START}{Colors.MAGENTA}WHAT'S EVEN THE POINT?{Colors.BOLD_END}")
+    print(COMPLETION)
+    print("Well, its basically Wordle... but with points and power ups and ChatGPT.")
+    print("You've got six attempts to a guess a five-letter word, make 'em count.")
+    print(DIVIDER)
+    print("")
+
+    print(COMPLETION)
+    print(f"{Colors.BOLD_START}{Colors.MAGENTA}SCORING{Colors.BOLD_END}")
+    print(COMPLETION)
+    print("Even your worst guesses could earn you points!\n")
+    print(f"{Colors.GREEN}Guess a character in its right place, that's 5 points.{Colors.BASE}")
+    print(f"{Colors.YELLOW}Stumble upon a correct character but its in the wrong place, that's 2 points.{Colors.BASE}\n")
+    print("Let's make sure you understand...\n")
+    print('Imagine the correct word is "beach"...')
+    print('and you moronically guess "chair"...\n')
+    print(f"{Colors.YELLOW}  c  h  {Colors.BASE}{Colors.GREEN}a{Colors.BASE}{Colors.RED}  i  r{Colors.BASE}")
+    print(" +2 +2 +5 +0 +0 = 9 points")
+    print(DIVIDER)
+    print("")
+
+    print(COMPLETION)
+    print(f"{Colors.BOLD_START}{Colors.MAGENTA}POWER UPS{Colors.BOLD_END}")
+    print(COMPLETION)
+    print("You can't pay your rent with these points \nbut you can use them for something (almost) as good... power-ups!\n")
+    print("Input these words as your guess to purchase and use each ability in-game:\n")
+    print('"HELP"   |   0 pts | Shows alphabet with each letter colored based on your previous guesses')
+    print('"HINT"   |  25 pts | Shows alphabet with a random letter of the correct word highlighted blue')
+    print('"REWIND" |  50 pts | Sets back your guess counter by one')
+    print('"RIDDLE" | 100 pts | ChatGPT delivers a clever riddle where the correct word is the answer')
+    print(DIVIDER)
+    print("")
+
+    print(COMPLETION)
+    print(f"{Colors.BOLD_START}{Colors.MAGENTA}CHATGPT THINGS{Colors.BOLD_END}")
+    print(COMPLETION)
+    print("Every word you need to guess correctly is assigned by our overlord, ChatGPT.")
+    print("Our smarty-pants GPT-3.5-turbo model will also be your judge, jury, and executioner.")
+    print("Guess a made-up or misspelled word? Prepare for a whole lot of nothing. No points, just shame.")
+    print(DIVIDER)
+    print("")
+
+    print(COMPLETION)
+    print(f"{Colors.BOLD_START}{Colors.MAGENTA}ENJOY YOUR VERBAL BEATDOWN{Colors.BOLD_END}")
+    print(COMPLETION)
+    print("In the spirit of fun (and because we can), we're gonna roast you. A lot.")
+    print("Sit back, relax, and try not to cry. Laughter is the recommended response.")
+    print(DIVIDER)
+    print("")
+    print(f"{Colors.BOLD_START}{Colors.CYAN}Remember, in YOUR DUMB, it's about the journey, not the destination...{Colors.BOLD_END}\n")
+
+    print(COMPLETION)
+    input(f"{Colors.YELLOW}Press ENTER to return to the homepage.{Colors.BASE}")
+    green_text("Loading homepage...")
+
